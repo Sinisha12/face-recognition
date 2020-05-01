@@ -1,23 +1,39 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+face_recognition_client/node_modules
+face_recognition_client/.pnp
+face_recognition_client/.pnp.js
+
+face_recognition_server/node_modules
+face_recognition_server/.pnp
+face_recognition_server/.pnp.js
 
 # testing
-/coverage
+face_recognition_client/coverage
+face_recognition_server/coverage
 
 # production
-/build
+face_recognition_client/build
+face_recognition_server/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+face_recognition_client/.DS_Store
+face_recognition_client/.env.local
+face_recognition_client/.env.development.local
+face_recognition_client/.env.test.local
+face_recognition_client/.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+face_recognition_server/npm-debug.log*
+face_recognition_server/yarn-debug.log*
+face_recognition_server/yarn-error.log*
+
+face_recognition_server/.DS_Store
+face_recognition_server/.env.local
+face_recognition_server/.env.development.local
+face_recognition_server/.env.test.local
+face_recognition_server/.env.production.local
+
+face_recognition_server/npm-debug.log*
+face_recognition_server/yarn-debug.log*
+face_recognition_server/yarn-error.log*
